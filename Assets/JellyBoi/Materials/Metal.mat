@@ -7,10 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Skirt
-  m_Shader: {fileID: 4800000, guid: 7c08973d0fcb7b34d9f217953cd81925, type: 3}
-  m_ShaderKeywords: POI_LIGHT_DATA_ADDITIVE_DIRECTIONAL_ENABLE POI_LIGHT_DATA_ADDITIVE_ENABLE
-    POI_PARALLAX POI_VERTEXLIGHT_ON VIGNETTE_MASKED
+  m_Name: Metal
+  m_Shader: {fileID: 4800000, guid: 7ed604300b4e9b444a30307aeadc84d5, type: 3}
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -55,7 +54,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: b623120c9840421488010cbc5316ef7b, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ClearCoatFallback:
@@ -235,7 +234,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _HeightMap:
-        m_Texture: {fileID: 2800000, guid: b6c5e12cce2a2084f9f611a13a6c7f31, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Heightmask:
@@ -275,11 +274,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 191d8cbfebd2a9f4f815aa4f9d5ce4a1, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Matcap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 3898346602b3bd64f83b1217bb30d744, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Matcap0NormalMap:
@@ -1035,7 +1034,7 @@ Material:
     - _HeightMapUV: 0
     - _HeightStepsMax: 128
     - _HeightStepsMin: 10
-    - _HeightStrength: 0.005
+    - _HeightStrength: 0.4247461
     - _HeightmaskInvert: 0
     - _HeightmaskUV: 0
     - _HighColorThemeIndex: 0
@@ -1214,7 +1213,7 @@ Material:
     - _MatcapBorder: 0.43
     - _MatcapColorThemeIndex: 0
     - _MatcapEmissionStrength: 0
-    - _MatcapEnable: 0
+    - _MatcapEnable: 1
     - _MatcapHueShift: 0
     - _MatcapHueShiftEnabled: 0
     - _MatcapHueShiftSpeed: 0
@@ -1324,7 +1323,7 @@ Material:
     - _PathingOverrideAlpha: 0
     - _PoiGSAAThreshold: 0.1
     - _PoiGSAAVariance: 0.15
-    - _PoiParallax: 1
+    - _PoiParallax: 0
     - _PolarLengthScale: 1
     - _PolarRadialScale: 1
     - _PolarSpiralPower: 0
@@ -1538,7 +1537,7 @@ Material:
     - footer_patreon: 0
     - footer_twitter: 0
     - footer_youtube: 0
-    - m_AudioLinkCategory: 1
+    - m_AudioLinkCategory: 0
     - m_end_ALDecalSpectrum: 0
     - m_end_Alpha: 0
     - m_end_Ansio: 0
@@ -1611,12 +1610,12 @@ Material:
     - m_end_uvPanosphere: 0
     - m_end_uvPolar: 0
     - m_end_vertexManipulation: 0
-    - m_lightingCategory: 0
-    - m_mainCategory: 1
-    - m_modifierCategory: 1
+    - m_lightingCategory: 1
+    - m_mainCategory: 0
+    - m_modifierCategory: 0
     - m_postprocessing: 0
     - m_renderingCategory: 0
-    - m_specialFXCategory: 1
+    - m_specialFXCategory: 0
     - m_start_ALDecalSpectrum: 0
     - m_start_Alpha: 0
     - m_start_Aniso: 0
@@ -1675,9 +1674,9 @@ Material:
     - m_start_emissionOptions: 0
     - m_start_flipBook: 0
     - m_start_glitter: 0
-    - m_start_matcap: 0
+    - m_start_matcap: 1
     - m_start_mirrorOptions: 0
-    - m_start_parallax: 1
+    - m_start_parallax: 0
     - m_start_pathing: 0
     - m_start_pointToPoint: 0
     - m_start_postprocess: 0
