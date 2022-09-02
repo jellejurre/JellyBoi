@@ -840,6 +840,19 @@ MonoBehaviour:
     height: 0
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
+--- !u!114 &915015275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 915015270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 229740497, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contentType: 0
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -988,7 +1001,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   immobileType: 1
-  immobile: 0.5
+  immobile: 0.3
   immobileCurve:
     serializedVersion: 2
     m_Curve: []
@@ -1025,15 +1038,15 @@ MonoBehaviour:
   - {fileID: 358972561}
   - {fileID: 1476823091}
   - {fileID: 1366396114}
-  limitType: 1
-  maxAngleX: 20.4
+  limitType: 3
+  maxAngleX: 27.3
   maxAngleXCurve:
     serializedVersion: 2
     m_Curve: []
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  maxAngleZ: 15.6
+  maxAngleZ: 12.1
   maxAngleZCurve:
     serializedVersion: 2
     m_Curve: []
@@ -1224,7 +1237,7 @@ PrefabInstance:
     - target: {fileID: -4102302345768921993, guid: d91a799c759207546b51d5af64d85206,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -3551960246506442466, guid: d91a799c759207546b51d5af64d85206,
         type: 3}
@@ -1330,12 +1343,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: ae5e6f583b80a3343a85f97a2cf7f2da, type: 2}
+      objectReference: {fileID: 2100000, guid: 1bbc6df1e23ae9842bb513612af5dc1b, type: 2}
     - target: {fileID: 4800545675622748477, guid: d91a799c759207546b51d5af64d85206,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: 1bbc6df1e23ae9842bb513612af5dc1b, type: 2}
+      objectReference: {fileID: 2100000, guid: ae5e6f583b80a3343a85f97a2cf7f2da, type: 2}
     - target: {fileID: 5526916206557119634, guid: d91a799c759207546b51d5af64d85206,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
