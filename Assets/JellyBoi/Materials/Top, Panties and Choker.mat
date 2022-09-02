@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Top and Choker
+  m_Name: Top, Panties and Choker
   m_Shader: {fileID: 4800000, guid: ea2de64118ffd9245b9e6c8f20c0dc3f, type: 3}
   m_ShaderKeywords: POI_LIGHT_DATA_ADDITIVE_DIRECTIONAL_ENABLE POI_LIGHT_DATA_ADDITIVE_ENABLE
     POI_PARALLAX POI_VERTEXLIGHT_ON VIGNETTE_MASKED
