@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Hands fist
+  m_Name: Hands middle (angry)
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -174,7 +174,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -0.54
+        value: 0.96
         inSlope: -0.476557
         outSlope: -0.476557
         tangentMode: 0
@@ -193,7 +193,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -0.89
+        value: 0.79
         inSlope: -0.4323145
         outSlope: -0.4323145
         tangentMode: 0
@@ -212,7 +212,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -0.99
+        value: 0.93
         inSlope: -0.15516728
         outSlope: -0.15516728
         tangentMode: 0
@@ -231,7 +231,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -2.024372
+        value: -0.66
         inSlope: -2.024372
         outSlope: -2.024372
         tangentMode: 0
@@ -554,7 +554,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -0.54
+        value: 0.96
         inSlope: -0.476557
         outSlope: -0.476557
         tangentMode: 0
@@ -573,7 +573,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -0.89
+        value: 0.79
         inSlope: -0.4323145
         outSlope: -0.4323145
         tangentMode: 0
@@ -592,7 +592,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -0.99
+        value: 0.93
         inSlope: -0.15516728
         outSlope: -0.15516728
         tangentMode: 0
@@ -611,7 +611,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -2.024372
+        value: -0.66
         inSlope: -2.024372
         outSlope: -2.024372
         tangentMode: 0
@@ -776,6 +776,44 @@ AnimationClip:
     attribute: RightHand.Thumb.Spread
     path: 
     classID: 95
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 100
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: blendShape.AngryMouth
+    path: Body
+    classID: 137
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 100
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: blendShape.AngryEyes
+    path: Body
+    classID: 137
     script: {fileID: 0}
   m_PPtrCurves: []
   m_SampleRate: 60
@@ -1065,6 +1103,20 @@ AnimationClip:
       typeID: 95
       customType: 8
       isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2073732236
+      attribute: 310505209
+      script: {fileID: 0}
+      typeID: 137
+      customType: 20
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2073732236
+      attribute: 819243464
+      script: {fileID: 0}
+      typeID: 137
+      customType: 20
+      isPPtrCurve: 0
     pptrCurveMapping: []
   m_AnimationClipSettings:
     serializedVersion: 2
@@ -1244,7 +1296,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -0.54
+        value: 0.96
         inSlope: -0.476557
         outSlope: -0.476557
         tangentMode: 0
@@ -1263,7 +1315,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -0.89
+        value: 0.79
         inSlope: -0.4323145
         outSlope: -0.4323145
         tangentMode: 0
@@ -1282,7 +1334,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -0.99
+        value: 0.93
         inSlope: -0.15516728
         outSlope: -0.15516728
         tangentMode: 0
@@ -1301,7 +1353,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -2.024372
+        value: -0.66
         inSlope: -2.024372
         outSlope: -2.024372
         tangentMode: 0
@@ -1624,7 +1676,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -0.54
+        value: 0.96
         inSlope: -0.476557
         outSlope: -0.476557
         tangentMode: 0
@@ -1643,7 +1695,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -0.89
+        value: 0.79
         inSlope: -0.4323145
         outSlope: -0.4323145
         tangentMode: 0
@@ -1662,7 +1714,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -0.99
+        value: 0.93
         inSlope: -0.15516728
         outSlope: -0.15516728
         tangentMode: 0
@@ -1681,7 +1733,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -2.024372
+        value: -0.66
         inSlope: -2.024372
         outSlope: -2.024372
         tangentMode: 0
@@ -1846,6 +1898,44 @@ AnimationClip:
     attribute: RightHand.Thumb.Spread
     path: 
     classID: 95
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 100
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: blendShape.AngryMouth
+    path: Body
+    classID: 137
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 100
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: blendShape.AngryEyes
+    path: Body
+    classID: 137
     script: {fileID: 0}
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
