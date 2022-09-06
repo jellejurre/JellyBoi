@@ -6,6 +6,12 @@ This is an avatar made from scratch by JelleJurre (discord:JelleJurre#8585) by f
 It is licensed under a Creative Commons Attribution license, meaning that anyone is free to share, copy and redistribute the material (here meaning everything in the JellyBoi folder) in any medium or format, and adapt, remix, transform, and build upon the material
 for any purpose, even commercially, as long as you give appropriate credit, and indicate if changes were made.
 
+# Features
+- Quest compatible
+- Medium optimisation
+- GoGo locomotion
+- Clothing toggles
+
 # Install Instructions
 1. Import the latest SDK  
 2. Import the latest verion of Poiyomi Toon  
