@@ -1482,19 +1482,6 @@ MonoBehaviour:
     height: 0
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
---- !u!114 &915015274
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 915015270}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 229740497, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  contentType: 0
 --- !u!4 &915015275 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d91a799c759207546b51d5af64d85206,
@@ -1800,12 +1787,12 @@ PrefabInstance:
     - target: {fileID: -8298384897070090276, guid: d91a799c759207546b51d5af64d85206,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.045056865
+      value: -0.04505687
       objectReference: {fileID: 0}
     - target: {fileID: -8298384897070090276, guid: d91a799c759207546b51d5af64d85206,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0330515
+      value: 0.033051502
       objectReference: {fileID: 0}
     - target: {fileID: -7990503044743705875, guid: d91a799c759207546b51d5af64d85206,
         type: 3}
@@ -1975,7 +1962,7 @@ PrefabInstance:
     - target: {fileID: 1630794972795428178, guid: d91a799c759207546b51d5af64d85206,
         type: 3}
       propertyPath: m_BlendShapeWeights.Array.size
-      value: 27
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 1630794972795428178, guid: d91a799c759207546b51d5af64d85206,
         type: 3}
@@ -2020,6 +2007,11 @@ PrefabInstance:
     - target: {fileID: 1630794972795428178, guid: d91a799c759207546b51d5af64d85206,
         type: 3}
       propertyPath: m_BlendShapeWeights.Array.data[26]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: d91a799c759207546b51d5af64d85206,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[27]
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3298886869298817977, guid: d91a799c759207546b51d5af64d85206,
@@ -2081,7 +2073,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 2cf20c92da9f498478af5a6b6d20fc01, type: 2}
+      objectReference: {fileID: 9100000, guid: 8c78ea1070a552a45891814c171e2991, type: 2}
     - target: {fileID: 5866666021909216657, guid: d91a799c759207546b51d5af64d85206,
         type: 3}
       propertyPath: m_ApplyRootMotion
