@@ -1172,26 +1172,26 @@ MonoBehaviour:
     name: Pose Float Adjustment.- 0,65 Crouch
   - hash: 1615401668
     name: Pose Float Adjustment.+ 0,65 Stand
-  - hash: -105725231
-    name: Pose Float Adjustment.225
-  - hash: -1900678585
-    name: Pose Float Adjustment.224
-  - hash: 1622905707
-    name: Pose Float Adjustment.226
-  - hash: 1742100338
-    name: Pose Float Adjustment.222
-  - hash: -2029797780
-    name: Pose Float Adjustment.228
-  - hash: -1982319010
-    name: Pose Float Adjustment.220
-  - hash: -18938168
-    name: Pose Float Adjustment.221
-  - hash: -618013383
-    name: Pose Float Adjustment.219
-  - hash: 398238717
-    name: Pose Float Adjustment.227
   - hash: 282159076
     name: Pose Float Adjustment.223
+  - hash: 398238717
+    name: Pose Float Adjustment.227
+  - hash: -618013383
+    name: Pose Float Adjustment.219
+  - hash: -18938168
+    name: Pose Float Adjustment.221
+  - hash: -1982319010
+    name: Pose Float Adjustment.220
+  - hash: -2029797780
+    name: Pose Float Adjustment.228
+  - hash: 1742100338
+    name: Pose Float Adjustment.222
+  - hash: 1622905707
+    name: Pose Float Adjustment.226
+  - hash: -1900678585
+    name: Pose Float Adjustment.224
+  - hash: -105725231
+    name: Pose Float Adjustment.225
   - hash: -1079340638
     name: Temporary Pose Space.PP Up
   - hash: 1867228981
@@ -1264,6 +1264,8 @@ MonoBehaviour:
     name: Thumbs up
   - hash: -1592414362
     name: RockNRoll
+  - hash: 686931493
+    name: WD RESET
   - hash: -1963515926
     name: Fist
   - hash: -1368897710
@@ -1480,6 +1482,19 @@ MonoBehaviour:
     height: 0
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
+--- !u!114 &915015274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 915015270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 229740497, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contentType: 0
 --- !u!4 &915015275 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d91a799c759207546b51d5af64d85206,
@@ -2182,7 +2197,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   immobileType: 1
-  immobile: 0.9
+  immobile: 0.7
   immobileCurve:
     serializedVersion: 2
     m_Curve: []
@@ -2207,14 +2222,14 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  maxAngleZ: 45
+  maxAngleZ: 25.1
   maxAngleZCurve:
     serializedVersion: 2
     m_Curve: []
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  limitRotation: {x: 0, y: 0, z: 0}
+  limitRotation: {x: 0, y: 90, z: 0}
   limitRotationXCurve:
     serializedVersion: 2
     m_Curve: []
